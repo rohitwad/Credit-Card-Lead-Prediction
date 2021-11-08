@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<body>
+ <div class="Details">
+     <h2> Credit Card Purchase Prediction</h2>
+     <!-- Main Input For Receiving Query to our ML -->
+    
+     <table style="width:25%" border:1px solid black>
+     <form action="/predict"method="post">
+        <tr>
+        <th><label >ID </label></th>
+        <th><input type="text" name="ID1" required="required" /></th>
+        </tr>
+             
+        <tr>
+        <th><label>Gender :</label></th>
+        <th><select name="Gender1" id="gender">
+            <option value="male"> Male</option>
+            <option value="female"> Female</option>
+        </select></th>
+        </tr>      
+        
+        <tr>
+        <th><label >Age :</label></th>
+        <th><input type="number" min="0" name="Age1" required="required" /></th>
+        </tr>
+        
+        <tr> 
+        <th><label >Region Code :</label></th>
+        <th><input type="text" name="Region_Code1" required="required" /></th>
+        </tr>
+          
+        <tr> 
+        <th><label>Occupation :</label></th>
+        <th><select name="Occupation1" id="occupation">
+            <option value="selfEmployed">Self Employed</option>
+            <option value="salaried">Salaried</option>
+            <option value="entrepreneur">Entrepreneur</option>
+            <option value="other">Other</option>
+        </select></th>
+        </tr> 
+        
+        <tr>
+        <th><label>Channel Code :</label></th>
+        <th><select name="Channel_Code1" id="channelCode">
+            <option value="X1">X1</option>
+            <option value="X2">X2</option>
+            <option value="X3">X3</option>
+            <option value="X4">X4</option>
+        </select></th>
+        </tr>
+         
+        <tr> 
+        <th><label >Vintage :</label></th>
+        <th><input type="number" min="0" name="Vintage1" required="required" /></th>
+        </tr>
+        
+        <tr> 
+        <th><label>Credit Product Present:</label></th>
+        <th><select name="Credit_Product_Present1" id="creditProductPresent">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select></th>
+        <tr>
+
+        <tr>    
+        <th><label >Average Account Balance :</label></th>
+        <th><input type="number" name="Avg_Account_Balance1" required="required"/></th>
+        </tr>
+         
+        <tr> 
+        <th><label>Is Active ?</label></th>
+        <th><select name="Is_Active1" id="isActive">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select></th>
+         </tr>
+         
+        <!-- <input type="text" name="Is_Active" placeholder="Is Active ?" required="required" />  </br> --> 
+        <tr></tr>
+        <tr><th><button type="submit" class="btn btn-primary btn-block btn-large">Predict</button></th></tr>
+
+    </form>
+    </table>
+  
+    {{ prediction_text }}
+    </div>
+   </body>
+</html>
