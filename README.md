@@ -1,6 +1,6 @@
 # Credit-Card-Lead-Prediction
 <b>Analytics Vidhya - Hackathon 28-30 May 2021</b>
-
+</br>https://datahack.analyticsvidhya.com/contest/job-a-thon-2/
 
 <b>Problem Statement</b>: Bank is looking for your help in identifying customers that could show higher intent towards a recommended credit card in the form of percentage 
 
