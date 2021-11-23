@@ -16,7 +16,7 @@
 <br/> Public Rank : 1727 
 <br/> Public Leaderboard: 0.7319135583
 <br/>
-<br/> Credits : Krish Naik Sir - 
+<br/> Credits : Krish Naik - 
 <br/> Links :
 <br/> 1) Deployment of ML models in Heroku using FLASK : 
 <br/> https://www.youtube.com/watch?v=mrExsjcvF4o&t=880s
