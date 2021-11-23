@@ -13,8 +13,6 @@
 <br/> Model built has been deployed in <b>Heroku (PaaS) using Flask</b>
 <br/> It can be accessed via link: https://creditcard-purchase-prediction.herokuapp.com/
 <br/> For time being, Logistic Regression is used in api prediction <br/>
-<br/> Public Rank : 1727 
-<br/> Public Leaderboard: 0.7319135583
 <br/>
 <br/> Credits : Krish Naik - 
 <br/> Links :
