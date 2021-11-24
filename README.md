@@ -22,7 +22,7 @@
 <br/> &emsp; &emsp; -> Missing values/Nan values can be handled internally by algo, but still we handled Nan values 
 <br/><b> 5) Testing the model</b>
 <br/> &emsp;1) Logistic Regression - With Percentage - Private Score : 0.727
-<br/> &emsp;2) Catboost Classifier - 5000 iterations - Private Score : 0.783
+<br/> &emsp;2) Catboost Classifier - 1000 iterations - Private Score : 0.783
 <br/> &emsp;Public Rank : 1727 
 <br/> &emsp;Public Leaderboard: 0.7319135583
 <br/> &emsp;Metrics : Confusion matrix & ROC curve
