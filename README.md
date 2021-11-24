@@ -15,8 +15,11 @@
 <br/> <b>3) Feature Selection</b>
 <br/> &emsp;Dropping columns : ID & Is_Lead (y), not required in model building
 <br/><b>4) Model Creation</b>
-<br/> &emsp; i) 
-<br/> &emsp; ii) 
+<br/> &emsp; i) For Logistic Regression, we perform steps 2 & 3 : Feature Engg & Feature Selection
+<br/> &emsp; ii) For CatBoost Classifier, 
+<br/> &emsp; &emsp; -> we do not perform data pre-processing steps here like handling categorical variables of below columns : 
+<br/> &emsp; &emsp; &emsp;"Gender","Region_Code","Occupation","Channel_Code","Credit_Product","Is_Active"
+<br/> &emsp; &emsp; -> Missing values/Nan values can be handled internally by algo, but still we handled Nan values 
 <br/><b>5) Testing the model</b>
 <br/> &emsp;1) Logistic Regression - With Percentage - Private Score : 0.727
 <br/> &emsp;2) Catboost Classifier - 5000 iterations - Private Score : 0.783
