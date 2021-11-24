@@ -21,10 +21,14 @@
 <br/> &emsp; &emsp; &emsp;"Gender","Region_Code","Occupation","Channel_Code","Credit_Product","Is_Active"
 <br/> &emsp; &emsp; -> Missing values/Nan values can be handled internally by algo, but still we handled Nan values 
 <br/><b> 5) Testing the model</b>
-<br/> &emsp;1) Logistic Regression - With Percentage - Private Score : 0.727
-<br/> &emsp;2) Catboost Classifier - 1000 iterations - Private Score : 0.783
-<br/> &emsp;Public Rank : 1727 
-<br/> &emsp;Public Leaderboard: 0.7319135583
+<br/> &emsp; i) Local Accuracy:
+<br/> &emsp; &emsp; 1) Logistic Regression - 77.65
+<br/> &emsp; &emsp; 2) CatBoost Classifier - 79.36
+<br/> &emsp; ii) AnalyticsVidhya Accuracy:
+<br/> &emsp; &emsp; 1) Logistic Regression - With Percentage - Private Score : 0.727
+<br/> &emsp; &emsp; 2) Catboost Classifier - 1000 iterations - Private Score : 0.783
+<br/> &emsp; &emsp; Public Rank : 1727 
+<br/> &emsp; &emsp; Public Leaderboard: 0.7319135583
 <br/> &emsp;Metrics : Confusion matrix & ROC curve
 <br/> <b> 6) Deployment</b>
 <br/> &emsp;Model built has been deployed in <b>Heroku (PaaS) using Flask</b>
